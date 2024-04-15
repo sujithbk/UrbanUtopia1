@@ -1,0 +1,1532 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    display: flex;
+    margin-left: 20px;
+    position: fixed;
+    /* top: initial;
+    bottom: 0; */
+}
+
+.nav-links {
+    text-decoration: none;
+    list-style: none;
+    color: brown;
+    display: flex;
+    margin-inline: 353px;
+    border: solid 2px whitesmoke;
+    padding: 0;
+    border-radius: 13px;
+    background: white;
+
+}
+
+.nav-links li a {
+    text-decoration: none;
+    margin: 10px 10px; /* Adjust the margin here to give space */
+    color: black;
+}
+
+.nav-links li {
+    margin: 10px 10px; /* Adjust the margin here to give space */
+}
+
+.Signup{
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+.container1{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(#69b4ff,white);
+
+} 
+#d1{
+    margin-left: 75px;
+    margin-top: 225px;
+    font-size: 41px;
+    font-family: sans-serif;
+}
+
+.container3{
+    display: flex;
+}
+#image1{
+    width: 705px;
+    /* margin-left: 460px; */
+    padding-left:  228px;
+    padding-top: 32px;
+    height: 497px;
+    width: 764px;
+    /* margin-left: 460px; */
+    padding-top: 68px;
+    
+}
+
+
+/* grid */
+
+.grid-container {
+    display: grid;
+    gap: 50px 100px;
+    grid-template-columns: auto auto auto;
+    background: linear-gradient(white,#69b4ff);
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background: linear-gradient(#69b4ff,white);;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #second{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: xx-large;
+    padding-top: 34px;
+    padding-bottom: 23px;
+    text-decoration:underline
+  }
+
+  #third{
+    background: linear-gradient(#69b4ff,white);
+}
+.wrapper { 
+    /* position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);  */
+    margin-left: 31%;
+    max-width: 350px; 
+    width: 100%; 
+    background: linear-gradient(#69b4ff,white);
+    padding: 25px; 
+    border-radius: 5px; 
+    border: 2px solid black;
+} 
+.wrapper h2 { 
+    text-align: center; 
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    color: #332902; 
+    font-family: Arial, Helvetica, sans-serif;
+} 
+  
+.wrapper .input_field { 
+    margin-bottom: 10px; 
+} 
+  
+.wrapper 
+    .input_field 
+    input[type="text"], 
+.wrapper textarea { 
+    border: 1px solid #e0e0e0; 
+    width: 100%; 
+    padding: 10px; 
+} 
+.wrapper textarea { 
+    resize: none; 
+    height: 80px; 
+} 
+  
+.wrapper .btn input[type="submit"] { 
+    border: 0px; 
+    margin-top: 15px; 
+    padding: 10px; 
+    text-align: center; 
+    width: 100%; 
+    background: #4d879a; 
+    color: #fcfbf7; 
+    text-transform: uppercase; 
+    letter-spacing: 5px; 
+    font-weight: bold; 
+    border-radius: 25px; 
+    cursor: pointer; 
+} 
+#error_message { 
+    margin-bottom: 20px; 
+    background: #fe8b8e; 
+    padding: 0px; 
+    text-align: center; 
+    font-size: 14px; 
+    transition: all 0.5s ease; 
+}
+
+@media screen and (max-width: 1250px ){
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        margin-left: 20px;
+        position: fixed;
+        /* top: initial;
+        bottom: 0; */
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        display: flex;
+        margin-inline: 324px;
+        border: solid 2px whitesmoke;
+        padding: 0;
+        border-radius: 13px;
+        background: white;
+    
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        margin: 10px 10px; /* Adjust the margin here to give space */
+        color: black;
+    }
+    
+    .nav-links li {
+        margin: 10px 10px; /* Adjust the margin here to give space */
+    }
+    
+    .Signup{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    .logo{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    .container1{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(#69b4ff,white);
+    
+    } 
+    #d1{
+        margin-left: 75px;
+        margin-top: 225px;
+        font-size: 41px;
+        font-family: sans-serif;
+    }
+    
+    .container3{
+        display: flex;
+    }
+    #image1{
+        width: 705px;
+        /* margin-left: 460px; */
+        padding-left:  183px;
+        padding-top: 32px;
+        height: 497px;
+        width: 764px;
+        /* margin-left: 460px; */
+        padding-top: 68px;
+        
+    }
+}
+@media screen and (max-width: 1200px ){
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        margin-left: 20px;
+        position: fixed;
+        /* top: initial;
+        bottom: 0; */
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        display: flex;
+        margin-inline: 300px;
+        border: solid 2px whitesmoke;
+        padding: 0;
+        border-radius: 13px;
+        background: white;
+    
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        margin: 10px 10px; /* Adjust the margin here to give space */
+    }
+    
+    .nav-links li {
+        margin: 10px 10px; /* Adjust the margin here to give space */
+    }
+    
+    .Signup{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    .logo{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    .container1{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(#69b4ff,white);
+    
+    } 
+    #d1{
+        margin-left: 75px;
+        margin-top: 225px;
+        font-size: 41px;
+        font-family: sans-serif;
+    }
+    
+    .container3{
+        display: flex;
+    }
+    #image1{
+        width: 705px;
+        /* margin-left: 460px; */
+        padding-left:  150px;
+        padding-top: 32px;
+        height: 497px;
+        width: 764px;
+        /* margin-left: 460px; */
+        padding-top: 68px;
+        
+    }
+}
+
+@media screen and (max-width: 1100px ){
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        margin-left: 20px;
+        position: fixed;
+        /* top: initial;
+        bottom: 0; */
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        display: flex;
+        margin-inline: 230px;
+        border: solid 2px whitesmoke;
+        padding: 0;
+        border-radius: 13px;
+        background: white;
+    
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        margin: 10px 10px; /* Adjust the margin here to give space */
+        color: black;
+    }
+    
+    .nav-links li {
+        margin: 10px 10px; /* Adjust the margin here to give space */
+    }
+    
+    .Signup{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    .logo{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    .container1{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(#69b4ff,white);
+    
+    } 
+    #d1{
+        margin-left: 75px;
+        margin-top: 225px;
+        font-size: 41px;
+        font-family: sans-serif;
+    }
+    
+    .container3{
+        display: flex;
+    }
+    #image1{
+        width: 705px;
+        /* margin-left: 460px; */
+        padding-left:  53px;
+        padding-top: 32px;
+        height: 497px;
+        width: 697px;
+        /* margin-left: 460px; */
+        padding-top: 68px;
+        
+    }
+}
+
+@media screen and (max-width: 1000px ){
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        margin-left: 20px;
+        position: fixed;
+        /* top: initial;
+        bottom: 0; */
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        display: flex;
+        margin-inline: 190px;
+        border: solid 2px whitesmoke;
+        padding: 0;
+        border-radius: 13px;
+        background: white;
+    
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        margin: 10px 10px; /* Adjust the margin here to give space */
+    }
+    
+    .nav-links li {
+        margin: 10px 10px; /* Adjust the margin here to give space */
+    }
+    
+    .Signup{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    .logo{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    .container1{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(#69b4ff,white);
+    
+    } 
+    #d1{
+        margin-left: 75px;
+        margin-top: 225px;
+        font-size: 41px;
+        font-family: sans-serif;
+    }
+    
+    .container3{
+        display: flex;
+    }
+    #image1{
+        width: 705px;
+        margin-left: -62px;
+        padding-left: 0px;
+        padding-top: 32px;
+        height: 497px;
+        width: 764px;
+        /* margin-left: 460px; */
+        padding-top: 68px;
+        
+    }
+   
+}
+
+@media screen and (max-width: 900px ){
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        margin-left: 20px;
+        position: fixed;
+        /* top: initial;
+        bottom: 0; */
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        display: flex;
+        margin-inline: 176px;
+        border: solid 2px whitesmoke;
+        padding: 0;
+        border-radius: 13px;
+        background: white;
+    
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        margin: 10px 10px; /* Adjust the margin here to give space */
+    }
+    
+    .nav-links li {
+        margin: 10px 10px; /* Adjust the margin here to give space */
+    }
+    
+    .Signup{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+        margin-left: -55px;
+    }
+    .logo{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    .container1{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(#69b4ff,white);
+    
+    } 
+    #d1{
+        margin-left: 41px;
+        margin-top: 295px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    
+    .container3{
+        display: flex;
+    }
+    #image1{
+        width: 705px;
+    margin-left: -110px;
+    padding-left: 0px;
+    padding-top: 32px;
+    height: 497px;
+    width: 748px;
+    /* margin-left: 460px; */
+    padding-top: 68px;
+        
+    }
+}
+
+@media screen and (max-width: 850px ){
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        margin-left: 20px;
+        position: fixed;
+        /* top: initial;
+        bottom: 0; */
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        display: flex;
+        margin-inline: 176px;
+        border: solid 2px whitesmoke;
+        padding: 0;
+        border-radius: 13px;
+        background: white;
+    
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        margin: 10px 10px; /* Adjust the margin here to give space */
+        color: black;
+    }
+    
+    .nav-links li {
+        margin: 10px 10px; /* Adjust the margin here to give space */
+    }
+    
+    .Signup{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+        margin-left: -102px;
+    }
+    .logo{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    .container1{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(#69b4ff,white);
+    
+    }
+    #d1{
+        margin-left: 41px;
+        margin-top: 295px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    
+    .container3{
+        display: flex;
+    }
+    #image1{
+        width: 705px;
+        margin-left: -25px;
+        padding-left: -5px;
+        padding-top: 32px;
+        height: 509px;
+        width: 633px;
+        /* margin-left: 460px; */
+        padding-top: 68px;
+        
+    }
+}
+
+@media screen and (max-width: 800px ){
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        margin-left: 20px;
+        position: fixed;
+        /* top: initial;
+        bottom: 0; */
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        display: flex;
+        margin-inline: 176px;
+        border: solid 2px whitesmoke;
+        padding: 0;
+        border-radius: 13px;
+        background: white;
+    
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        margin: 10px 10px; /* Adjust the margin here to give space */
+    }
+    
+    .nav-links li {
+        margin: 10px 10px; /* Adjust the margin here to give space */
+    }
+    
+    .Signup{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+        margin-left: -123px;
+    }
+    .logo{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    .container1{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(#69b4ff,white);
+    
+    } 
+    #d1{
+        margin-left: 41px;
+        margin-top: 295px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    
+    .container3{
+        display: flex;
+    }
+    #image1{
+        width: 705px;
+        margin-left: -79px;
+        padding-left: -5px;
+        padding-top: 32px;
+        height: 509px;
+        width: 620px;
+        /* margin-left: 460px; */
+        padding-top: 88px;
+        
+    }
+}
+
+@media screen and (max-width: 750px ){
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        margin-left: 20px;
+        position: fixed;
+        /* top: initial;
+        bottom: 0; */
+        
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        display: flex;
+        margin-inline: 166px;
+        border: solid 2px whitesmoke;
+        padding: 0;
+        border-radius: 13px;
+        background: white;
+    
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        margin: 5px 5px; /* Adjust the margin here to give space */
+        color: black;
+    }
+    
+    .nav-links li {
+        margin: 5px 5px; /* Adjust the margin here to give space */
+    }
+    
+    .Signup{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+        margin-left: -101px;
+    }
+    .logo{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    #d1{
+        margin-left: 41px;
+        margin-top: 295px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    
+    .container3{
+        display: flex;
+    }
+    #image1{
+        width: 705px;
+    margin-left: -108px;
+    padding-left: -5px;
+    padding-top: 32px;
+    height: 497px;
+    width: 578px;
+    /* margin-left: 460px; */
+    padding-top: 88px;
+        
+    }
+}
+@media screen and (max-width: 700px ){
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        margin-left: 20px;
+        position: fixed;
+        /* top: initial;
+        bottom: 0; */
+        
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        display: flex;
+        margin-inline: 166px;
+        border: solid 2px whitesmoke;
+        padding: 0;
+        border-radius: 13px;
+        background: white;
+    
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        margin: 5px 5px; /* Adjust the margin here to give space */
+        color: black;
+    }
+    
+    .nav-links li {
+        margin: 5px 5px; /* Adjust the margin here to give space */
+    }
+    
+    .Signup{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+        margin-left: -124px;
+    }
+    .logo{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    /* .container1{
+        height: 500px;
+        width: 100%;
+        background: linear-gradient(#69b4ff,white);
+    
+    }  */
+    #d1{
+        margin-left: 41px;
+        margin-top: 295px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    
+    .container3{
+        display: flex;
+    }
+    #image1{
+        margin-left: -124px;
+        padding-left: -5px;
+        padding-top: 32px;
+        height: 497px;
+        width: 541px;
+        /* margin-left: 460px; */
+        padding-top: 88px;
+        
+    }
+    .wrapper { 
+        /* position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);  */
+        margin-top: 26px;
+    margin-left: 23%;
+    max-width: 350px;
+        width: 100%; 
+        background: linear-gradient(#69b4ff,white);
+        padding: 25px; 
+        border-radius: 5px; 
+        border: 2px solid black;
+    } 
+}
+@media screen and (max-width: 650px ){
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        margin-left: 20px;
+        position: fixed;
+        /* top: initial;
+        bottom: 0; */
+        
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        display: flex;
+        margin-inline:132px;
+        border: solid 2px whitesmoke;
+        padding: 0;
+        border-radius: 13px;
+        background: white;
+    
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        margin: 5px 5px; /* Adjust the margin here to give space */
+    }
+    
+    .nav-links li {
+        margin: 5px 5px; /* Adjust the margin here to give space */
+    }
+    
+    .Signup{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+        margin-left: -126px;;
+    }
+    .logo{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    /* .container1{
+        height: 500px;
+        width: 100%;
+        background: linear-gradient(#69b4ff,white);
+    
+    }  */
+    #d1{
+        margin-left: 41px;
+        margin-top: 295px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    
+    .container3{
+        display: flex;
+    }
+    #image1{
+        margin-left: -124px;
+        padding-left: -5px;
+        padding-top: 32px;
+        height: 497px;
+    width: 405px;
+        /* margin-left: 460px; */
+        padding-top: 88px;
+        
+    }
+}
+@media screen and (max-width: 600px ){
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        margin-left: 20px;
+        position: fixed;
+        /* top: initial;
+        bottom: 0; */
+        
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        display: flex;
+        margin-inline:120px;
+        border: solid 2px whitesmoke;
+        padding: 0;
+        border-radius: 13px;
+        background: white;
+    
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        margin: 5px 5px; /* Adjust the margin here to give space */
+        color: black;
+    }
+    
+    .nav-links li {
+        margin: 5px 5px; /* Adjust the margin here to give space */
+    }
+    
+    .Signup{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+        margin-left: -124px;;
+    }
+    .logo{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    /* .container1{
+        height: 500px;
+        width: 100%;
+        background: linear-gradient(#69b4ff,white);
+    
+    }  */
+    #d1{
+        margin-left: 28px;
+        margin-top: 295px;
+        font-size: 34px;
+        font-family: sans-serif;
+    }
+    
+    .container3{
+        display: flex;
+    }
+    #image1{
+        margin-left: -124px;
+        padding-left: -5px;
+        padding-top: 32px;
+        height: 497px;
+    width: 360px;
+        /* margin-left: 460px; */
+        padding-top: 88px;
+        
+    }
+}
+@media screen and (max-width: 550px ){
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        margin-left: 20px;
+        position: fixed;
+        /* top: initial;
+        bottom: 0; */
+        
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        display: flex;
+        margin-inline:88px;
+        border: solid 2px whitesmoke;
+        padding: 0;
+        border-radius: 13px;
+        background: white;
+    
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        margin: 5px 5px; /* Adjust the margin here to give space */
+        color: black;
+    }
+    
+    .nav-links li {
+        margin: 5px 5px; /* Adjust the margin here to give space */
+    }
+    
+    .Signup{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+        margin-left: -126px;;
+    }
+    .logo{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    /* .container1{
+        height: 500px;
+        width: 100%;
+        background: linear-gradient(#69b4ff,white);
+    
+    }  */
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+        grid-template-rows: repeat(3, auto); /* Three rows with automatic height */
+        gap: 10px; /* Gap between grid items */
+        padding: 20px; /* Padding around the grid */
+    }
+    
+    .grid-item {
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        padding: 20px;
+    }
+    .wrapper { 
+        /* position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);  */
+        margin-top: 26px;
+    margin-left: 11%;
+    max-width: 350px;
+        width: 100%; 
+        background: linear-gradient(#69b4ff,white);
+        padding: 25px; 
+        border-radius: 5px; 
+        border: 2px solid black;
+    } 
+   
+}
+@media screen and (max-width: 500px ){
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        margin-left: 20px;
+        position: fixed;
+        /* top: initial;
+        bottom: 0; */
+        
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        display: flex;
+        margin-inline:64px;
+        border: solid 2px whitesmoke;
+        padding: 0;
+        border-radius: 13px;
+        background: white;
+    
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        margin: 5px 5px; /* Adjust the margin here to give space */
+        color: black;
+    }
+    
+    .nav-links li {
+        margin: 5px 5px; /* Adjust the margin here to give space */
+    }
+    
+    .Signup{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+        margin-left: -115px;
+    }
+    .logo{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    /* .container1{
+        height: 500px;
+        width: 100%;
+        background: linear-gradient(#69b4ff,white);
+    
+    }  */
+    #d1{
+        margin-left: 28px;
+        margin-top: 295px;
+        font-size: 34px;
+        font-family: sans-serif;
+    }
+    
+    .container3{
+        display: flex;
+    }
+    #image1{
+        margin-left: -124px;
+        padding-left: -5px;
+        padding-top: 32px;
+        height: 497px;
+    width: 276px;
+        /* margin-left: 460px; */
+        padding-top: 88px;
+        
+    }
+}
+@media screen and (max-width: 480px){
+
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        margin-left: 20px;
+        /* position: fixed; */
+        /* top: initial; */
+        /* bottom: 0; */
+        
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        display: flex;
+        margin-inline: 7px;
+        border: solid 2px whitesmoke;
+        padding: 0;
+        border-radius: 5px;
+        background: white;
+        position: fixed;
+        bottom: 0;
+        margin-bottom: 2px;
+        margin-left: 57px;
+    
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        margin: 2px 2px; /* Adjust the margin here to give space */
+    }
+    
+    .nav-links li {
+        margin: 2px 2px; /* Adjust the margin here to give space */
+    }
+    
+    .Signup{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+        margin-left: 224px;
+        padding: 4px;
+       
+    }
+    .logo{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    .container1{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(white,#69b4ff);
+    
+    } 
+    #d1{
+        margin-left: 21px;
+        margin-top: 569px;
+        /* font-size: 41px; */
+        font-family: sans-serif;
+        /* padding-left: 73px; */
+        padding-right: -135px;
+    }
+    
+    /* .container3{
+        display: flex;
+    } */
+    #image1{
+        width: 705px;
+        margin-left: -284px;
+        padding-left: 0px;
+        padding-top: 32px;
+        height: 436px;
+        width: 485px;
+        /* margin-left: 460px; */
+        padding-top: 68px;
+        
+    }
+    .wrapper { 
+        /* position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);  */
+        margin-top: 26px;
+    margin-left: 5%;
+    max-width: 350px;
+        width: 100%; 
+        background: linear-gradient(#69b4ff,white);
+        padding: 25px; 
+        border-radius: 5px; 
+        border: 2px solid black;
+    } 
+
+}
+@media screen and (max-width: 430px){
+
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        margin-left: 20px;
+        /* position: fixed; */
+        /* top: initial; */
+        /* bottom: 0; */
+        
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        display: flex;
+        margin-inline: 7px;
+        border: solid 2px whitesmoke;
+        padding: 0;
+        border-radius: 5px;
+        background: white;
+        position: fixed;
+        bottom: 0;
+        margin-bottom: 2px;
+        margin-left: 20px;
+    
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        margin: 2px 2px; /* Adjust the margin here to give space */
+    }
+    
+    .nav-links li {
+        margin: 2px 2px; /* Adjust the margin here to give space */
+    }
+    
+    .Signup{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+        margin-left: 167px;
+        padding: 4px;
+       
+    }
+    .logo{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    .container1{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(white,#69b4ff);
+    
+    } 
+    #d1{
+        margin-left: 21px;
+        margin-top: 569px;
+        /* font-size: 41px; */
+        font-family: sans-serif;
+        /* padding-left: 73px; */
+        padding-right: -135px;
+    }
+    
+    /* .container3{
+        display: flex;
+    } */
+    #image1{
+        width: 705px;
+        margin-left: -284px;
+        padding-left: 0px;
+        padding-top: 32px;
+        height: 436px;
+        width: 485px;
+        /* margin-left: 460px; */
+        padding-top: 68px;
+        
+    }
+    .wrapper { 
+        /* position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);  */
+        margin-top: 26px;
+    margin-left: -8%;
+    max-width: 350px;
+        width: 100%; 
+        background: linear-gradient(#69b4ff,white);
+        padding: 25px; 
+        border-radius: 5px; 
+        border: 2px solid black;
+    } 
+
+
+}
+
+@media screen and (max-width: 390px){
+
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        margin-left: 20px;
+        /* position: fixed; */
+        /* top: initial; */
+        /* bottom: 0; */
+        
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        display: flex;
+        margin-inline: 7px;
+        border: solid 2px whitesmoke;
+        padding: 0;
+        border-radius: 5px;
+        background: white;
+        position: fixed;
+        bottom: 0;
+        margin-bottom: 3px;
+        margin-left: 9px;
+    
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        margin: 2px 2px; /* Adjust the margin here to give space */
+    }
+    
+    .nav-links li {
+        margin: 2px 2px; /* Adjust the margin here to give space */
+    }
+    
+    .Signup{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+        margin-left: 137px;
+        padding: 4px;
+       
+    }
+    .logo{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    .container1{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(white,#69b4ff);
+    
+    } 
+    #d1{
+        margin-left: 47px;
+        margin-top: 546px;
+        /* font-size: 41px; */
+        font-family: sans-serif;
+        /* padding-left: 73px; */
+        padding-right: -135px;
+    }
+    
+    /* .container3{
+        display: flex;
+    } */
+    #image1{
+        width: 705px;
+        margin-left: -303px;
+    padding-left: 0px;
+    padding-top: 32px;
+    height: 436px;
+    width: 359px;
+    /* margin-left: 460px; */
+    padding-top: 68px;
+        
+    }
+
+}
+@media screen and (max-width: 350px){
+
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        display: flex;
+        margin-left: 20px;
+        /* position: fixed; */
+        /* top: initial; */
+        /* bottom: 0; */
+        
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        display: flex;
+        margin-inline: 7px;
+        border: solid 2px whitesmoke;
+        padding: 0;
+        border-radius: 5px;
+        background: white;
+        position: fixed;
+        bottom: 0;
+        margin-bottom: 3px;
+        margin-left: -9px;
+    
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        margin: 2px 2px; /* Adjust the margin here to give space */
+    }
+    
+    .nav-links li {
+        margin: 2px 2px; /* Adjust the margin here to give space */
+    }
+    
+    .Signup{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+        margin-left: 110px;
+        padding: 4px;
+       
+    }
+    .logo{
+        margin: 0;
+        text-decoration: none;
+        color: black;
+    }
+    .container1{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(white,#69b4ff);
+    
+    } 
+
+}
+
+.container5 {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer styles */
+.footer {
+    background: linear-gradient(#69b4ff,white);
+    color: #0d0d0d;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+}
+
+.footer-section.about p {
+    color: #ccc;
+}
+
+.footer-section.links ul {
+    list-style: none;
+}
+
+.footer-section.links ul li {
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: calc(100% - 12px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-bottom {
+    background: linear-gradient(#69b4ff,white);
+    padding: 10px 0;
+    text-align: center;
+    color: #0c0c0c;
+}
